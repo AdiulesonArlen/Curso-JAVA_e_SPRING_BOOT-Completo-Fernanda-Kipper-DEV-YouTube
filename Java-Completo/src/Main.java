@@ -7,12 +7,20 @@ public class Main {
         float f = 10.5f;
         char c = 'A';
         boolean bool = true;
-        String str = "Adam";
+        String str = "Austin";
 
-        if(b < 99) {
-            System.out.println("Verdadeiro!");
+        int colecaoDeInteiros[] = {1, 2, 3, 4, 5};
+        int[] meusNumeros = new int[5];
+
+        if (str.isBlank()) {
+            System.out.println("Verdadeiro");
+        } else if ( str == "Austin") {
+        System.out.println("Austin");
         } else {
             System.out.println("Falso!");
         }
+
+        System.out.println(colecaoDeInteiros[0]);
+        System.out.println(colecaoDeInteiros.length);
     }
 }
